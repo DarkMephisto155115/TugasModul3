@@ -149,4 +149,4 @@ Total pajak yang harus dibayarkan adalah Rp. 17.55 Juta
 
 - Kelas `hitungPPh` bertanggung jawab untuk melakukan perhitungan PPh. Kelas ini memiliki berbagai metode untuk menghitung pendapatan kena pajak, tarif pajak, dan jumlah pajak yang harus dibayar. Informasi PPh akhir ditampilkan dalam metode `DisplayPPh`.
 
-Silahkan bebas menggunakan dan memodifikasi kode ini untuk perhitungan pajak
+Silahkan bebas menggunakan dan memodifikasi kode ini untuk perhitungan pajak.

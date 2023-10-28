@@ -69,7 +69,7 @@ public class Main {
         System.out.println("===========");
         pilihan = sc.nextInt();
         if(pilihan == 1){
-            System.out.println("Berapa jumlah anak");
+            System.out.print("Berapa jumlah anak anda? : ");
             hitungPPh.setAnak(sc.nextInt());
         }else{
             hitungPPh.setAnak(0);

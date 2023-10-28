@@ -71,7 +71,7 @@ public class hitungPPh {
         }else if (getPenghasilanKenaPajak() > 5000) {
             totalPajakPPh = (getPenghasilanKenaPajak()*0.25);
         }else{
-            System.out.println("Terjadi kesalahan");
+            System.out.println("Terjadi kesalahan.");
         }
         if (totalPajakPPh < 0 ){
             setTotalPajakPPh(0);
