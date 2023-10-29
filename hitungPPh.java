@@ -82,6 +82,7 @@ public class hitungPPh {
     }
 
     /**
+     * Persentase p ph int.
      *
      * @return Mengembalikan persentase PPh
      */
@@ -162,12 +163,12 @@ public class hitungPPh {
     /**
      * Mendapatkan Beban Tanggungan
      *
-     * @return BebanTanggungan
+     * @return BebanTanggungan beban tanggungan
      */
-
     public double getBebanTanggungan() {
         return bebanTanggungan;
     }
+
     /**
      * mengisi Beban Tanggungan
      *
@@ -182,7 +183,6 @@ public class hitungPPh {
      *
      * @return status nikah
      */
-
     public boolean isSudahMenikah() {
         return sudahMenikah;
     }
@@ -210,39 +210,78 @@ public class hitungPPh {
      *
      * @param anak Jumlah anak/tanggungan yang dimiliki (0 misalkan tidak punya)
      */
-
     public void setAnak(int anak) {
         this.anak = anak;
     }
 
+    /**
+     * Gets penghasilan bersih.
+     *
+     * @return the penghasilan bersih
+     */
     public double getPenghasilanBersih() {
         return penghasilanBersih;
     }
 
+    /**
+     * Sets penghasilan bersih.
+     *
+     * @param penghasilanBersih the penghasilan bersih
+     */
     public void setPenghasilanBersih(double penghasilanBersih) {
         this.penghasilanBersih = penghasilanBersih;
     }
 
+    /**
+     * Gets penghasilan tidak kena pajak.
+     *
+     * @return the penghasilan tidak kena pajak
+     */
     public double getPenghasilanTidakKenaPajak() {
         return penghasilanTidakKenaPajak;
     }
 
+    /**
+     * Sets penghasilan tidak kena pajak.
+     *
+     * @param penghasilanTidakKenaPajak the penghasilan tidak kena pajak
+     */
     public void setPenghasilanTidakKenaPajak(double penghasilanTidakKenaPajak) {
         this.penghasilanTidakKenaPajak = penghasilanTidakKenaPajak;
     }
 
+    /**
+     * Gets penghasilan kena pajak.
+     *
+     * @return the penghasilan kena pajak
+     */
     public double getPenghasilanKenaPajak() {
         return penghasilanKenaPajak;
     }
 
+    /**
+     * Sets penghasilan kena pajak.
+     *
+     * @param penghasilanKenaPajak the penghasilan kena pajak
+     */
     public void setPenghasilanKenaPajak(double penghasilanKenaPajak) {
         this.penghasilanKenaPajak = penghasilanKenaPajak;
     }
 
+    /**
+     * Gets total pajak p ph.
+     *
+     * @return the total pajak p ph
+     */
     public double getTotalPajakPPh() {
         return totalPajakPPh;
     }
 
+    /**
+     * Sets total pajak p ph.
+     *
+     * @param totalPajakPPh the total pajak p ph
+     */
     public void setTotalPajakPPh(double totalPajakPPh) {
         this.totalPajakPPh = totalPajakPPh;
     }
